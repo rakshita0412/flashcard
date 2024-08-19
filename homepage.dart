@@ -13,7 +13,7 @@ class HomePage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text('Welcome to the Flash Card App!'),
-            SizedBox(height: 20), // Adding some space between text and button
+            SizedBox(height: 20), 
             ElevatedButton(
               onPressed: () {
                 Navigator.pushNamed(context, '/flashcards', arguments: flashcards);
