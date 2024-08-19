@@ -2,12 +2,6 @@ import 'package:flutter/material.dart';
 import '../src/flashcard.dart';
 
 class HomePage extends StatelessWidget {
-  final List<FlashCard> flashcards = [
-    FlashCard(question: "What is Flutter?", answer: "A UI toolkit"),
-    FlashCard(question: "What language does Flutter use?", answer: "Dart"),
-    // Add more flashcards as needed
-  ];
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
